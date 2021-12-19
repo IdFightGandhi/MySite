@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import {BrowserRouter as Router, Link, Routes, Route} from 'react-router-dom'
 import './social.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faTwitter, faYoutube, faTwitch, faInstagram} from '@fortawesome/free-brands-svg-icons'
@@ -15,19 +16,19 @@ const Social = () => {
                 alignItems:'center', 
                 justifyContent:'center', 
                 cursor:'pointer', }}>
-            
-            {/* onMouseOver={()=> setOver(true)}
-            onMouseLeave={()=> setOver(false)} */}
+            <Router>
+                <a href='https://www.youtube.com'>
+                    <FontAwesomeIcon className="fa-icon" icon={faYoutube} /></a>
 
-            <FontAwesomeIcon className="fa-icon" icon={faYoutube} >
-            </FontAwesomeIcon>
-            <FontAwesomeIcon className="fa-icon"icon={faInstagram} >
-            </FontAwesomeIcon>
-            <FontAwesomeIcon className="fa-icon"icon={faTwitter} >
-            </FontAwesomeIcon>
-            <FontAwesomeIcon className="fa-icon"icon={faTwitch} >
-            </FontAwesomeIcon>
+                <a href='https://www.instagram.com'>
+                    <FontAwesomeIcon className="fa-icon"icon={faInstagram} /></a>
 
+                <a href='https://www.twitter.com'>    
+                <FontAwesomeIcon className="fa-icon"icon={faTwitter} /></a>
+                
+                <a href='https://www.twitch.tv/igartheinfinite'>
+                <FontAwesomeIcon className="fa-icon"icon={faTwitch} /></a>
+            </Router>
                 
         </div>
     )
