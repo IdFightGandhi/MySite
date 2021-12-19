@@ -8,14 +8,15 @@ import {IconContext} from 'react-icons';
 
 const Social = () => {
     return (
-        <div className="soup__social section" style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
-            <FontAwesomeIcon icon={faYoutube} style={{ fontSize: '100px', padding:'20px', color:"#fff"}}>
+        <div className="soup__social section" style={{display:'flex', alignItems:'center', justifyContent:'center', cursor:'pointer', }}>
+            
+            <FontAwesomeIcon className="fa-icon" icon={faYoutube} >
             </FontAwesomeIcon>
-            <FontAwesomeIcon icon={faInstagram} style={{ fontSize: '100px', padding:'20px', color:"#fff"}}>
+            <FontAwesomeIcon className="fa-icon"icon={faInstagram} >
             </FontAwesomeIcon>
-            <FontAwesomeIcon icon={faTwitter} style={{ fontSize: '100px', padding:'20px', color:"#fff"}}>
+            <FontAwesomeIcon className="fa-icon"icon={faTwitter} >
             </FontAwesomeIcon>
-            <FontAwesomeIcon icon={faTwitch} style={{ fontSize: '100px', padding:'20px', color:"#fff"}}>
+            <FontAwesomeIcon className="fa-icon"icon={faTwitch} >
             </FontAwesomeIcon>
 
                 

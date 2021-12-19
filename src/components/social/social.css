@@ -1,4 +1,9 @@
-
-
-
+.fa-icon{
+    font-size: 100px;
+    padding: 20px;
+    color:#fff;
+}
+.fa-icon:hover{
+    color:pink;
+}
 
