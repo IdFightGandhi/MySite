@@ -1,16 +1,9 @@
-/* .artist{
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 1200px;
-    line-height: 25px;
-    font-family: var(--font-family);
-    width: 100%;
+.artist{
+    margin:0;
     height: auto;
-    overflow: auto;
+    width: 100%;
 
-} */
+}
 
 .artist__row{
     display: flex;
