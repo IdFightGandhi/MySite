@@ -1,0 +1,39 @@
+/* .artist{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    line-height: 25px;
+    font-family: var(--font-family);
+    width: 100%;
+    height: auto;
+    overflow: auto;
+
+} */
+
+.artist__row{
+    display: flex;
+    height: auto;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 0 10px 10px;
+
+}
+
+.artist__block{
+    display: flex;
+    height:550px;
+    padding-top: 40px;
+    margin: 0 0 10px 10px;
+    text-align: center;
+}
+
+.artist__block img{
+    width: 100%;
+    height:auto;
+
+
+}

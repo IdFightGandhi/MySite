@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Social, CTA, Navbar } from './components';
+import { Social, CTA, Navbar, Contributors } from './components';
 import {Footer, Blog, Possibility, Features, WhatGPT3, Header} from './containers'
 import './App.css';
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
             </div>
             <Social />
             <WhatGPT3 />
-            <Features />
+            <Contributors />
             <Possibility />
             <CTA />
             <Blog />
